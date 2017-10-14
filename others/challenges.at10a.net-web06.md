@@ -4,7 +4,7 @@ The challenge will be available on `http://challenges.at10a.net:8080/web06/`
 # Source code can be found in: 
 `http://challenges.at10a.net:8080/web06/index.bak`
 
-#Source code:
+# Source code:
 ```php
 <?php
 @require "flag.php";
