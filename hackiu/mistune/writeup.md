@@ -7,7 +7,7 @@
 
 # Test:
 
-After searching for a while i found this maybe useful ```<javascript:alert('xss')>```, and the result:
+After searching for a while i found this maybe useful ```<javascript:alert('xss')>```,this will create a ```<a>``` tag, i will use this as payload and the result:
 ![XSS-Test](https://github.com/quanght55/CTFWriteups/blob/master/hackiu/mistune/images/mistune-test-xss.png)
 
 Then i try ```<javascript:alert(document.cookie)>```, the result:
