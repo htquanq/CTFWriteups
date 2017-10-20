@@ -8,6 +8,7 @@
 # Test:
 
 After searching for a while i found this maybe useful ```<javascript:alert('xss')>```, and the result:
+![XSS-Test](https://github.com/quanght55/CTFWriteups/blob/master/hackiu/mistune/images/mistune-test-xss.png)
 
 Then i try ```<javascript:alert(document.cookie)>```, the result:
 
