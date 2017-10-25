@@ -32,4 +32,4 @@ This is JSFuck challenge, to decode it:
     	}
 		}
 ```
-# The flag is: BMC{JsFuckMyBrain}
+# The flag is: BMC{JsFuckMyBrain} :smile: :heavy_check_mark:
