@@ -26,3 +26,4 @@ for i in itertools.product('0123456789',repeat=3):
 Run it with python
 
 # The flag is : BMC{why_c0uld_7h3_fb1_n07_bru73f0rc3_7h3_1ph0n3?}
+:smile::heavy_check_mark::smile:
