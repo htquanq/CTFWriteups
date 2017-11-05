@@ -19,3 +19,4 @@ We will have two folders with name
 ```
 And in folder 1-e044ce1aba756d98ab5e4c063d5008b6d5a228e8 we have
 
+![Image](https://github.com/quanght55/CTFWriteups/blob/master/svattt2017/tieuphong/images/tieuphong-git-extracted.png)
