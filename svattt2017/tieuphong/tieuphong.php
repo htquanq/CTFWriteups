@@ -1,4 +1,4 @@
-<?php
+```<?php
 
 $SECRET_ENCRYPT = 'ItsHardToBeliefs_ENCRYPT';
 
@@ -9,37 +9,29 @@ $sSecretKey =$SECRET_ENCRYPT;
 
 function fnDecrypt($sValue, $sSecretKey)
 {
-	        $iv_size = mcrypt_get_iv_size(
-			                    MCRYPT_RIJNDAEL_256,
-					                        MCRYPT_MODE_ECB
-								                );
-		        $value = base64_decode($sValue);
-		    return rtrim(
-			            mcrypt_decrypt(
-					                MCRYPT_RIJNDAEL_256,
-							            $sSecretKey,
-								                substr($value, $iv_size),
-										            MCRYPT_MODE_ECB,
-											                substr($value, 0, $iv_size)
-													        ), "\0" );
+	        $iv_size = mcrypt_get_iv_size(MCRYPT_RIJNDAEL_256,MCRYPT_MODE_ECB);
+		$value = base64_decode($sValue);
+		return rtrim(
+			     mcrypt_decrypt(
+					MCRYPT_RIJNDAEL_256,
+					$sSecretKey,
+					substr($value, $iv_size),
+					MCRYPT_MODE_ECB,
+					substr($value, 0, $iv_size)
+					), "\0" );
 }
 function fnEncrypt($value, $sSecretKey)
 {
-	        $iv_size = mcrypt_get_iv_size(
-			                    MCRYPT_RIJNDAEL_256,
-					                        MCRYPT_MODE_ECB
-								                );
+	        $iv_size = mcrypt_get_iv_size(MCRYPT_RIJNDAEL_256,MCRYPT_MODE_ECB);
 
-		    return base64_encode(
-			            mcrypt_encrypt(
-					                MCRYPT_RIJNDAEL_256,
-							            $sSecretKey,
-								                substr($value, $iv_size),
-										            MCRYPT_MODE_ECB
-
-											            ));
+		return base64_encode(
+			     mcrypt_encrypt(
+					MCRYPT_RIJNDAEL_256,
+					$sSecretKey,
+					substr($value, $iv_size),
+					MCRYPT_MODE_ECB)
+		);
 }
-
 $a = fnEncrypt("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTieuPhong:abcd1234",$sSecretKey);
 // $a = mwP2X7MQx10YfrzFqXvAwjGdNDuP9y3CqrVjRWXocUzsAbXYMuDmSimD5HPPgLkPR+VUjK92TAOwiol7WnxrSQ==
  echo $a;
@@ -59,3 +51,4 @@ if($username === "TieuPhong"){
     }
 
 ?>
+```
