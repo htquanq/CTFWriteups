@@ -1,4 +1,4 @@
-```<?php
+<?php
 
 $SECRET_ENCRYPT = 'ItsHardToBeliefs_ENCRYPT';
 
@@ -51,4 +51,3 @@ if($username === "TieuPhong"){
     }
 
 ?>
-```
