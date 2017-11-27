@@ -34,7 +34,8 @@ parent 2c6190537a2655121ccb9647765fa99687afec25
 author Jimmy <jimmy@jimmyrocks.site> 1511297558 +0000
 committer Jimmy <jimmy@jimmyrocks.site> 1511297558 +0000
 
-Added flag
+Added flag <--- right here
+
 quanghuynh@ubuntu:~/Desktop/Tools/GitTools/Git-Gud$ git cat-file -p 61315dcca584181b2580b1cdf6e5d36f0323a752
 100644 blob 353589fc6a0a098f208cd7b2a391ecc4b65d8b56    README.md
 100644 blob 2a31291a3ab4f8f05e9a421617abaa524da0b89f    about.html
