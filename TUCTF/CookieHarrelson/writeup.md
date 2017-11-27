@@ -13,7 +13,7 @@ I got notice on the cookie, use Burpsuite to make a request and it shows there's
 
 First I tried `bHM%3D`, server will return a cookie look like this `Y2F0IGluZGV4LnR4dCAjbHM%3D` which equals to `cat index.txt #ls`.
 
-Hmmm our command is commented out :( But i got a trick to bypass this.
+Hmmm our command is commented out :angry: But i got a trick to bypass this :clap:
 
 # Trick
 Command in linux will be executed line by line which mean if we got 
