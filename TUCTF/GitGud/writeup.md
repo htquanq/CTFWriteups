@@ -16,9 +16,18 @@ After that we cat the file `GitGud/.git/logs/refs/heads/master` and you will see
 ```
 2c6190537a2655121ccb9647765fa99687afec25 22f63ceab55efe05c5448676a3470b13b6545f74 Jimmy <jimmy@jimmyrocks.site> 1511297558 +0000        commit: Added flag
 ```
+Using `git cat-file` command
 
 Then do the following
 ```
+quanghuynh@ubuntu:~/Desktop/Tools/GitTools/Git-Gud$ git cat-file -p 2c6190537a2655121ccb9647765fa99687afec25
+tree b0f30828b576f99e0f7b906b751a32969182913f
+parent cfb7e1cbb11d866d4084920fde50077d26bb0953
+author Jimmy <jimmy@jimmyrocks.site> 1511297071 +0000
+committer Jimmy <jimmy@jimmyrocks.site> 1511297071 +0000
+
+Updated blog
+
 quanghuynh@ubuntu:~/Desktop/Tools/GitTools/Git-Gud$ git cat-file -p 22f63ceab55efe05c5448676a3470b13b6545f74
 tree 61315dcca584181b2580b1cdf6e5d36f0323a752
 parent 2c6190537a2655121ccb9647765fa99687afec25
