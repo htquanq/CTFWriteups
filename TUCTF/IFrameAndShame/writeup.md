@@ -8,6 +8,8 @@ After a while for trial, I try to add some characters to break format and I succ
 
 ![IFrameAndShame](https://github.com/quanght55/CTFWriteups/blob/master/TUCTF/IFrameAndShame/images/image.png) 
 
+As you can see it return `search.py`
+
 My payload is `#|"|command-injection-here||x #`
 
 It will get the result of the command we inject and put into the output
