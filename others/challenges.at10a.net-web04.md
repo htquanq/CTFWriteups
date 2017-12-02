@@ -33,4 +33,4 @@ This is JSFuck challenge, to decode it:
 		}
 ```
 # Login with username: locidol and password: JsFuckMyBrain
-# The flag is: BMC{JsFuckMyBrain} :smile: :heavy_check_mark:
+# The flag is: BMC{JsFuckMyBrain} :clap::clap::clap:

