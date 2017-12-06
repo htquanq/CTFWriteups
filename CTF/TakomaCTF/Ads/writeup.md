@@ -1,7 +1,7 @@
 # Writeup
 
 # Solve
-If you view the source code of the main page (here)[https://tpctf.com/about] you will see `static/user.css` file, access to it and we have
+If you view the source code of the main page [here](https://tpctf.com/about) you will see `static/user.css` file, access to it and we have
 ```
 .logo {
 	max-width: 750px;
