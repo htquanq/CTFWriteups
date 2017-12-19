@@ -51,6 +51,21 @@ I find out that `index.php~` exists and contains PHP code:
 If reading this code I can see that to be `admin` we need a `textColor` and `secret` parameter to be `POSTED` and `substr(sha1($temp),-3) ==='ab1'` (ending with characters "ab1")
 
 Then I write [this](https://github.com/quanght55/CTFWriteups/blob/master/CTF/Whitehatgrandprix2017/SSI/genSecret.py) script to produce `textColor`=red and `secret`=gbak, I became admin
+```
+from itertools import product
+import hashlib
+textColor="red"
+
+for i in range(10):
+	for q in product("abcdefghijk",repeat=i):
+		m = hashlib.sha1(''.join(q)+textColor)
+		print ''.join(q)+textColor
+		if (m.hexdigest()[-3:] == "ab1"):
+			print "Found: "+m.hexdigest()
+			print "Secret: "+''.join(q)
+			print "textColor: "+textColor
+			exit(0)
+```
 
 ### Show IP
 ![here](https://github.com/quanght55/CTFWriteups/blob/master/CTF/Whitehatgrandprix2017/SSI/images/SSI2.png)
