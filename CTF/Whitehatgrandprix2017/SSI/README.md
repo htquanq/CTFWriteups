@@ -78,6 +78,6 @@ filesize of index.php first I thought it will be counted as Bytes but when I run
 # Flag
 `wget http://ssi.grandprix.whitehatvn.com/36789f5cc2688fb98476eea77c6696fe/flag.txt`
 
-and it contains `Learn_form_yesterday.Live_for_today.Hope_for_tomorrow.
+and it contains `Learn_form_yesterday.Live_for_today.Hope_for_tomorrow.`
 
 Following the guidelines of the CTF, we hash this string using SHA-1 and get the flag: WhiteHat{dffb112c136d8317033a2152b8d32a3125cd4e4c}.`
