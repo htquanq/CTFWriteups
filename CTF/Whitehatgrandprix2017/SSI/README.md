@@ -11,7 +11,7 @@ Author - BkavTeam
 # Solve
 ### Color changes
 The link above give us the following page:
-
+![here](https://github.com/quanght55/CTFWriteups/blob/master/CTF/Whitehatgrandprix2017/SSI/images/SSi.png)
 When input a color like, it is inserted into code and produced:
 `<h1 style="color:xxx;">WhiteHat Grand Prix 2017</h1>`
 
@@ -50,10 +50,10 @@ I find out that `index.php~` exists and contains PHP code:
 
 If reading this code I can see that to be `admin` we need a `textColor` and `secret` parameter to be `POSTED` and `substr(sha1($temp),-3) ==='ab1'` (ending with characters "ab1")
 
-Then I write [this]() script to produce `textColor`=red and `secret`=gbak, I became admin
+Then I write [this](https://github.com/quanght55/CTFWriteups/blob/master/CTF/Whitehatgrandprix2017/SSI/genSecret.py) script to produce `textColor`=red and `secret`=gbak, I became admin
 
 ### Show IP
-![here]()
+![here](https://github.com/quanght55/CTFWriteups/blob/master/CTF/Whitehatgrandprix2017/SSI/images/SSI2.png)
 
 Look at the source code I see this `Flag at directory: value_special/flag.txt, value_special = md5(filesize(index.php)-namechannelIRC)`
 
