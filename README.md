@@ -8,6 +8,7 @@ Sources that I find out have useful tools
 
 [IDA](https://github.com/quanght55/CTFWriteups/blob/master/sources/Disassemblers.md)
 
+[Extend Burpsuite license](https://github.com/quanght55/CTFWriteups/tree/master/howto)
 # 2017 CTF Events Writeups
 [TUCTF 2017 Writeup](https://github.com/quanght55/CTFWriteups/tree/master/TUCTF) - TUCTF 2017 - CTFTime Event : [TUCTF2017 Event](https://ctftime.org/event/500):clap:
 
