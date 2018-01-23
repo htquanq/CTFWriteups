@@ -37,3 +37,15 @@ Session file also save at `/var/lib/php/sessions` in `session.save_path`. We wil
 * Get a session
 * Rewrite that session with our payload
 * Override `session.save_path` with our session in `/tmp/SESSIONID` using copy
+
+# Input step when run script
+* print_r(glob('/*'))
+* print_r(file_get_contents('/flag'))
+
+# Functions
+* print_r is used to print an array
+* glob to search for directory matches pattern
+* file_get_contents used to get contents in a file
+
+# Flag
+**INS{4rb1tr4ry_func_c4ll_is_n0t_s0_fun}**

