@@ -1,7 +1,8 @@
 # PHuck
 
 # Source code 
-[here]()
+[here](https://github.com/quanght55/CTFWriteups/blob/master/CTF/Insomnihack2018/PHuck/index.php)
+
 I edited the source code for easier debug
 
 # Require of challenge
@@ -15,4 +16,4 @@ I edited the source code for easier debug
 * `userid` must not equal to 0 but equal to 0 at the same time `$a['userid'] != 0`, we can use `0.1` to achieve this.
 
 # Demo on local
-![Demo]() 
+![Demo](https://github.com/quanght55/CTFWriteups/blob/master/CTF/Insomnihack2018/PHuck/Screenshot%20from%202018-03-28%2013.29.04.png) 
