@@ -17,3 +17,5 @@ Sources that I find out have useful tools
 [Whitehatgrandprix2017 Writeup](https://github.com/quanght55/CTFWriteups/tree/master/CTF/Whitehatgrandprix2017) :clap:
 
 [Insomnihack2018Final](https://github.com/quanght55/CTFWriteups/tree/master/CTF/Insomnihack2018) :clap:
+
+[HITB-XCTF](https://github.com/quanght55/CTFWriteups/tree/master/CTF/HITB) :clap:
